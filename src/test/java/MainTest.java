@@ -18,7 +18,7 @@ class MainTest {
     @org.junit.jupiter.api.Test
     void checkBuzz() {
         assertEquals("Buzz", subject.fizzBuzzResult(5));
-        assertEquals("Buzz", subject.fizzBuzzResult(10));
+        assertEquals("Buzz", subject.fizzBuzzResult(9));
     }
 
     @org.junit.jupiter.api.Test
